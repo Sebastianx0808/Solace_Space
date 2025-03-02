@@ -1,0 +1,323 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "statement": "I've been feeling anxious or worried.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 2,
+        "statement": "I've been feeling sad or down.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 3,
+        "statement": "I've been feeling stressed.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 4,
+        "statement": "I've been feeling lonely.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 5,
+        "statement": "I've been having trouble sleeping.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 6,
+        "statement": "I've been experiencing physical symptoms like headaches or stomachaches.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 7,
+        "statement": "I've been feeling motivated to achieve my goals.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 8,
+        "statement": "I've been feeling overwhelmed by my daily tasks.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 9,
+        "statement": "I've been having difficulty concentrating on tasks.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 10,
+        "statement": "I've been feeling irritable or easily angered.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 11,
+        "statement": "I've been feeling happy and content.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 12,
+        "statement": "I've been feeling supported by my social network.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 13,
+        "statement": "I've been engaging in activities that I find enjoyable.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 14,
+        "statement": "I've been feeling hopeful about my future.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 15,
+        "statement": "I've been able to manage my emotions effectively.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 16,
+        "statement": "I’ve been feeling optimistic about the future.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 17,
+        "statement": "I’ve been feeling useful.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 18,
+        "statement": "I’ve been feeling relaxed.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 19,
+        "statement": "I’ve been feeling interested in other people.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 20,
+        "statement": "I’ve had energy to spare.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 21,
+        "statement": "I’ve been dealing with problems well.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 22,
+        "statement": "I’ve been thinking clearly.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 23,
+        "statement": "I’ve been feeling good about myself.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 24,
+        "statement": "I’ve been feeling close to other people.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 25,
+        "statement": "I’ve been feeling confident.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 26,
+        "statement": "I’ve been able to make up my own mind about things.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 27,
+        "statement": "I’ve been feeling loved.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 28,
+        "statement": "I’ve been interested in new things.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      },
+      {
+        "id": 29,
+        "statement": "I’ve been feeling cheerful.",
+        "options": [
+          { "label": "None of the time", "value": 1 },
+          { "label": "Rarely", "value": 2 },
+          { "label": "Some of the time", "value": 3 },
+          { "label": "Often", "value": 4 },
+          { "label": "All of the time", "value": 5 }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Primary Colors */
+  --teal-blue: #2A9D8F;
+  --sage-green: #87B08D;
+  --soft-white: #F8F9FA;
+  
+  /* Accent Colors */
+  --warm-peach: #F4A261;
+  --lavender: #9381FF;
+  
+  /* Functional Colors */
+  --success: #43AA8B;
+  --warning: #F9C74F;
+  --error: #E76F51;
+  
+  /* Text Colors */
+  --dark-navy: #293241;
+  --medium-gray: #6C757D;
+  --light-gray: #ADB5BD;
+}
+
+/* Add Tailwind classes */
+.bg-teal-blue { background-color: var(--teal-blue); }
+.bg-sage-green { background-color: var(--sage-green); }
+.bg-soft-white { background-color: var(--soft-white); }
+.bg-warm-peach { background-color: var(--warm-peach); }
+.bg-lavender { background-color: var(--lavender); }
+
+.text-teal-blue { color: var(--teal-blue); }
+.text-sage-green { color: var(--sage-green); }
+.text-dark-navy { color: var(--dark-navy); }
+.text-medium-gray { color: var(--medium-gray); }
+.text-light-gray { color: var(--light-gray); }
+.text-warm-peach { color: var(--warm-peach); }
+.text-lavender { color: var(--lavender); }
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--dark-navy);
+  background-color: var(--soft-white);
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--teal-blue);
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #238a7e;
+}
+
+.btn-secondary {
+  background-color: var(--sage-green);
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #78a17e;
+}
+
+.btn-accent {
+  background-color: var(--warm-peach);
+  color: white;
+  border: none;
+}
+
+.btn-accent:hover {
+  background-color: #e5935a;
+}
+
+.input-field {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  background-color: white;
+  color: var(--dark-navy);
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--teal-blue);
+  box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.1);
+}
+
+/* Responsive container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Authentication form styling */
+.auth-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.auth-title {
+  color: var(--teal-blue);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+/* Animation for feedback */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
